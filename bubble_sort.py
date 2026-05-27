@@ -4,3 +4,7 @@
 #latter
 #example: unsorted list: [5, 1, 3, 4, 2]
 #bubble sorted list: [1, 2, 3, 4, 5]
+
+def bubble_sort(list: list):
+    
+    pass
