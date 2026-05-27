@@ -7,7 +7,9 @@
 
 def bubble_sort(list: list):
     for i, v in enumerate(list):
-        if v > v[i+1]:
+        if list[i] > list[i+1]:
             list[i+1].append(v)
             list[i].append(v[i+1])
     return list
+
+print(bubble_sort([5, 1, 3, 4, 2]))
